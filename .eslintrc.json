@@ -1,0 +1,25 @@
+{
+	"extends": "eslint-config-airbnb-es5",
+	"parseOptions" : {
+		"ecmaFeatures" : {
+			"jsx" : true
+		}
+	},
+	"env" : {
+		"browser": true,
+		"node": true,
+		"jquery": true
+	},
+	"rules": {
+	    "eol-last": 0,
+	    "keyword-spacing": 0,
+	    "no-script-url": 0,
+	    "no-param-reassign": 0,
+	    "no-new": 0,
+	    "no-console": 0
+	},
+	"globals": {
+		"jQuery" : true,
+        "$": true
+	}
+}
